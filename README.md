@@ -1,1 +1,1 @@
-| Savoir rendre un site responsive |
+# Savoir rendre un site responsive 
