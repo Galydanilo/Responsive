@@ -1,0 +1,52 @@
+body{
+  background-color: #000;
+  color: #fff;
+}
+
+
+/* 
+1 - Type de media query :
+- all : pour tout les types media all na pas vraiment d'intérer
+- screen
+- print : imprimez (ouvre une pop-up)
+- speech
+*/
+
+
+@media print {
+    
+  body {
+    background-color: #fff;
+    color: #000;
+  }
+
+  .no-print{
+    display: none;
+  }
+}
+
+@media screen {
+
+  .footer{
+    border: 8px solid green;
+  }
+}
+
+/* @media all {
+  a {
+    font-weight: bold;
+    margin-bottom: 30px;
+    display: block;
+  }
+} */
+
+/* fait la même chose pas de media all pour cela */
+
+a {
+  font-weight: bold;
+  margin-bottom: 30px;
+  display: block;
+}
+
+/* 2 - Caractéristique des médias */
+
