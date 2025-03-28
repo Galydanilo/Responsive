@@ -16,16 +16,19 @@ Durant ces lives nous allons faire principalement du CSS avec un peu de HTML.
 - Utiliser un éditeur de texte, celui avec lequel vous êtes le plus à l'aise (VS Code, Sublime Text, Atom, etc...)
 - Avoir un navigateur récent pour visualiser le rendu de notre code (Firefox, Google Chrome, Edge, Safari, Opera)
 
-## Planning
+# 📱 Refonte de Maquettes Responsive
 
-| Numéro   | Titre                                                    
-| 01 Les medias-queries.|
-| 02 Des containers fluides sans surcouche de code |
-| 03 Des images adaptées, qui s'adaptent.|
-| 04Le mobile first |        
-| 05 Les mauvais exemples du responsive |
-| 06 Trouver et coder le reponsive le plus optimisé |
-| 07 Trouver et coder le reponsive le plus optimisé | 
+## 📌 Liste des sujets abordés
+
+| Numéro | Titre |
+|--------|------------------------------------------------|
+| 01     | Les medias-queries. |
+| 02     | Des containers fluides sans surcouche de code |
+| 03     | Des images adaptées, qui s'adaptent. |
+| 04     | Le mobile first |
+| 05     | Les mauvais exemples du responsive |
+| 06     | Trouver et coder le responsive le plus optimisé |
+| 07     | Trouver et coder le responsive le plus optimisé |
 
 ## Ressources
 
