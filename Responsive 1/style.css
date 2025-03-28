@@ -1,5 +1,5 @@
 body{
-  background-color: #000;
+  background-color: #393838;
   color: #fff;
 }
 
@@ -32,6 +32,11 @@ body{
   }
 }
 
+.recipe {
+  border: solid 5px #000;
+  margin-bottom: 10px;
+}
+
 /* @media all {
   a {
     font-weight: bold;
@@ -48,5 +53,75 @@ a {
   display: block;
 }
 
-/* 2 - Caractéristique des médias */
+/* 
+2 - Caractéristique des médias 
+- width
+- height
+- max-width
+- min-width
+- orientation
+*/
 
+@media (min-width: 1200px) {
+  body {
+    background-color: rgba(39, 10, 126, 0.525);
+  }
+}
+
+/*
+3- Enchainement des medias
+- telephone petit : 0 a 200px
+- telephone : 200px a 800px
+- tablette : 800px a 1000px
+- ordi : 1200px a 2400px
+- grand ecrans : 2400px a l'infini
+*/
+
+
+@media (max-width : 200px) {
+  .recipe {
+    /* pas de bordure sur petit ecran */
+    border-width: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  /* bordure avec des points sur telephone */
+  .recipe {
+    border-style: dotted;
+  }
+}
+
+@media (max-width: 1000px) {
+  /* bordure rouge sur tablette */
+  .recipe{
+    border-color: red;
+  }
+}
+
+/* 
+4 - un media query "complexe"
+- avec plusieurs caractéristiques
+- pour cibler une device ou un "etat" specifique
+*/
+
+
+/* Tablette uniquement en mode paysage */
+@media screen and (min-width: 800px) and (max-width: 1200px) and (orientation: landscape) {
+  .recipe {
+      color: red
+  }
+}
+
+.recipe:hover {
+  text-decoration: underline;
+}
+
+
+/* Pour toutes les devices (appareil) qui n'ont pas de hover,
+on met le soulignement par défaut */
+@media not(hover: hover) {
+  .recipe{
+    text-decoration: underline;
+  }
+}
